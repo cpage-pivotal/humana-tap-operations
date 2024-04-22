@@ -10,4 +10,4 @@ spec:
     # The issuer created previously
     name: tls-issuer
   dnsNames:
-    - "*.tap.humana.corby.page"
+    - "*.tap.humana.tanzu.corby.page"
