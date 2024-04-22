@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
   - ../base
   - tls-certificate.yaml
+  - overlay-supply-chain.yaml
   - workload-spring-sensors.yaml
