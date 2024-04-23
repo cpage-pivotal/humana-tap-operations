@@ -4,3 +4,4 @@ resources:
   - ../base
   - tls-certificate.yaml
   - workload-spring-sensors.yaml
+  - workload-dev-control-plane.yaml
