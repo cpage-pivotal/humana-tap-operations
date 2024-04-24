@@ -4,3 +4,4 @@ resources:
   - ../base
   - tls-certificate.yaml
   - deliverable-spring-sensors.yaml
+  - deliverable-dev-control-plane.yaml
