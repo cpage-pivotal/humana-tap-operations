@@ -1,0 +1,16 @@
+apiVersion: carto.run/v1alpha1
+kind: Deliverable
+metadata:
+  name: dev-control-plane
+  namespace: workload-corby
+  labels:
+    app.tanzu.vmware.com/deliverable-type: web
+    app.kubernetes.io/part-of: dev-control-plane
+    app.kubernetes.io/component: deliverable
+spec:
+  source:
+    git:
+      ref:
+        branch: main
+      url: https://github.com/cpage-pivotal/humana-deliveries.git
+    subPath: config/workload-corby/dev-control-plane
