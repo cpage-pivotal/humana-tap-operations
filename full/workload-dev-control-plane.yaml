@@ -12,7 +12,7 @@ spec:
     git:
       url: https://github.com/cpage-pivotal/Dev.Control.Plane
       ref:
-        branch: main
+        branch: supply-chain
     subPath: dcp
   params:
     - name: annotations
