@@ -1,7 +1,7 @@
 apiVersion: carto.run/v1alpha1
 kind: Deliverable
 metadata:
-  name: spring-sensors
+  name: spring-humana
   namespace: workload-corby
   labels:
     app.tanzu.vmware.com/deliverable-type: web
@@ -13,4 +13,4 @@ spec:
       ref:
         branch: main
       url: https://github.com/cpage-pivotal/humana-deliveries.git
-    subPath: config/workload-corby/spring-sensors
+    subPath: config/workload-corby/spring-humana
