@@ -5,4 +5,3 @@ resources:
   - tls-certificate.yaml
   - overlay-supply-chain.yaml
   - workload-spring-sensors.yaml
-  - workload-dev-control-plane.yaml
