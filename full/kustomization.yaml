@@ -4,3 +4,4 @@ resources:
   - ../base
   - tls-certificate.yaml
   - overlay-supply-chain.yaml
+  - workload-dev-control-plane.yaml
